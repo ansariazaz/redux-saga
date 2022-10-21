@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  margin:0;
+  padding:0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(249, 249, 161);
+  padding: 12px;
+}
+.cart{
+  position: relative;
+  cursor: pointer;
+}
+.num{
+  background-color: rgb(246, 43, 43);
+  position: absolute;
+  top: -12px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.product-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  box-sizing: border-box;
+  margin-top: 50px;
+
+}
+.product{
+  border: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+}
+button{
+  width: 80px;
+  padding: 6px 12px;
+  background-color: coral;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin:8px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.cart{
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cartItem{
+  margin-top: 30px;
+
+}
+.cart-container-1{
+  width: 50%;
+}
+.container-item{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-container-2{
+  border: 2px solid rgb(214, 214, 214);
+  margin-top: 30px;
+  width: 30%;
+  text-align: center;
+}
+.price{
+  width: 80%;
+  margin: 20px auto;
+}
+.price-detail{
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.price-detail p {
+  margin-top: 6px;
+}
+.price-detail h4{
+  margin-top: 6px;
+}
+.checkout{
+  width: 100% !important;
+  font-size: 20px !important;
+  padding: 12px 24px !important;
+}
+.emptyCart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0px auto;
+}
+.empty{
+  width: 50%;
+  margin-top: 200px;
+}
+.searchBox{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 12px 16px;
+  width: 100%;
+  border-radius: 6px;
+}
+.searchBox svg{
+  display: block;
+}
+.search{
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+.left{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
